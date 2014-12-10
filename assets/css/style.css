@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*::selection {
+  background-color: #E71D69;
+}
+::-moz-selection {
+  background-color: #E71D69;
+}*/
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #CCC;
+}
+#container {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+/*------------------------*/
+/*------------------------*/
+/*   Table on index.php   */
+/*------------------------*/
+/*------------------------*/
+#ttable table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ttable table, tr, th {
+  border: 2px solid #000;
+}
+#ttable table tr {
+  height: 70px;
+}
+#ttable table th {
+  text-align: center;
+}
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*   signUp form on signup.php + LogIn form on login.php   */
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+#signUp, #logIn {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
+#signUp fieldset, #logIn fieldset {
+  position: relative;
+  width: 960px;
+  height: auto;
+  padding: 50px;
+  border: 1px solid;
+  background-color: #FFF;
+}
+#signUp legend, #logIn legend {
+  text-transform: uppercase;
+  border: 0;
+  width: auto;
+  background-color: #E71D69;
+  padding: 10px 20px 10px 20px;
+  color: #FFF;
+}
+#signUp input, #logIn input {
+  border: 0;
+  border-bottom: 2px solid #CCC;
+  width: 860px;
+  height: 40px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+input#submitSignUp, input#submitLogIn {
+  border: 0;
+  margin: 0;
+  height: 60px;
+  text-transform: uppercase;
+  background-color: #1E1E1E;
+  color: #FFF;
+}
+input#submitSignUp:hover, input#submitLogIn:hover {
+  background-color: #E71D69;
+  color: #FFF;
+}
+fieldset p {
+  margin-top: 20px;
+  text-align: right;
+}
+fieldset p a {
+  font-weight: bold;
+}
+fieldset p a:hover {
+  text-decoration: none;
+  color: #E71D69;
+}
+fieldset ul.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 40px;
+}
